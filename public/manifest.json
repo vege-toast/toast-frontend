@@ -1,0 +1,14 @@
+{
+  "name": "Toast",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "유튜브, 주식, 뉴스 등 종합 정보 디스플레이 서비스",
+
+
+  "permissions": ["activeTab", "topSites"],
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-ozUsP4T+Mq3UnPj8ymwtvKmpI8P9BjlMJEhj3kqxP4w='; object-src 'self'"
+}
